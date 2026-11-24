@@ -1,0 +1,14 @@
+name: اقتراح ميزة / Feature request
+description: حاجة نفسك الأداة تعملها / Something you want Al Editor to do
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: عايزها تعمل إيه؟ ولإمتى بتحتاجها؟ / What should it do, and when do you need it?
+    validations: { required: true }
+  - type: input
+    id: example
+    attributes:
+      label: مثال (لينك ريل أو فيديو) / An example (a reel or video link)

@@ -1,0 +1,18 @@
+name: مشكلة / Bug
+description: حاجة مش شغالة زي ما المفروض / Something doesn't work
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: حصل إيه؟ وكنت متوقع إيه؟ / What happened, and what did you expect?
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes:
+      label: إزاي أعيدها؟ / How to reproduce
+  - type: input
+    id: versions
+    attributes:
+      label: نسخة Al Editor وبريمير وmacOS / Al Editor, Premiere and macOS versions

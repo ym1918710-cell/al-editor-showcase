@@ -1,0 +1,27 @@
+name: طلب صلاحية / Request access
+description: عايز تجرب Al Editor في البيتا / Ask to join the private beta
+title: "[Access] "
+labels: ["access"]
+body:
+  - type: input
+    id: work
+    attributes:
+      label: بتشتغل في إيه؟ / What do you edit?
+      placeholder: "ريلز، يوتيوب، إعلانات… / reels, YouTube, ads…"
+    validations: { required: true }
+  - type: dropdown
+    id: premiere
+    attributes:
+      label: عندك Premiere Pro 2025 أو أحدث على ماك؟ / Premiere Pro 2025+ on a Mac?
+      options: ["أيوه / Yes", "لأ / No"]
+    validations: { required: true }
+  - type: dropdown
+    id: claude
+    attributes:
+      label: بتستخدم Claude Code؟ / Do you use Claude Code?
+      options: ["أيوه / Yes", "لأ، بس هجربه / Not yet"]
+    validations: { required: true }
+  - type: input
+    id: link
+    attributes:
+      label: لينك لشغلك (اختياري) / A link to your work (optional)
